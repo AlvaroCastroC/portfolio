@@ -1,0 +1,65 @@
+
+header{
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    z-index: 2;
+    backdrop-filter: blur(5px);
+    
+}
+
+.container-topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 20px 0;
+}
+
+.container-topo ul {
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    flex-direction: row;
+}
+
+.container-topo h3 {
+    font-size: 20px;
+    font-weight: 700;
+    width: 150px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #232222;
+
+}
+
+
+.container-topo ul li a{
+    text-decoration: none;
+    color: #232222;;
+    font-weight: 650;
+    font-size: larger;
+    letter-spacing: 2px;
+    
+}
+
+.container-topo ul li{
+
+    transition-duration: 0.4s, 0.4s;
+    transition-timing-function: ease-in-out;
+
+}
+
+.container-topo ul li:hover{
+    transition-property: transform;
+    transform: translate(-4px, -3px);
+    text-shadow: 2px 1px 2px #1d2d2d;
+
+}
+
+.container-topo ul li a:hover{
+    color: #f99577;
+
+}
+
+

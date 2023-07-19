@@ -1,0 +1,193 @@
+import React from "react";
+import './style.css';
+export default function Principal() {
+    return (
+        <main>
+            <div >
+
+                <section className="banner" id="inicio">
+
+                    <div className="limite-container">
+                        <div className="container-banner ">
+                            <div className="titulo-banner">
+                                
+                                <h1><span>Olá, eu me chamo</span><br></br>Álvaro de Castro</h1>
+                                <p>Sou desenvolvedor Front-end</p>
+                            </div>
+
+                            <div className="container-imagens">
+                               <img className="imagem1" src='assets/react.png' alt="logo do react" title="logo do react" />
+                        
+                               <img className="imagem2" src='assets/javascript.png' alt="Logo do javascript" title="Logo do Javascript" />
+                            </div>
+                    
+                        </div >
+                    </div>
+
+                </section>
+                
+                <section className="secao-sobre" id="sobre">
+                    <div className="limite-container">
+                         <h2> Sobre mim </h2>
+
+                       <div className="container-sobre">
+
+                       <div>
+                            <img src="assets/foto.jpg" alt="foto pessoal" title="Selfie pessoal" />
+                       </div>
+
+                        <div>
+                            <p> Nasci em julho de 2002, e desde pequeno sempre gostei de programação.<br/>
+                            Sou formado em Análise e Desenvolvimento de Sistema. <br />
+                            Tenho certificados de autoridade na área de front-end. <br />
+                            E estou a procura de uma oportunidade no mercado na área da programação.
+                            </p>
+                        </div>
+                        
+                        </div>
+                    </div>
+                </section>
+
+                <section className="secao-habilidades" id="habilidades">
+                    <div className="limite-container">
+                        
+                        <h2> Minhas habilidades</h2>
+
+                        <div className="container-card">
+
+                            <div className="card-box">
+
+                                <div className="card-image">
+                                    <img src="assets/html-css.png" alt="logo do html e css" title="Logo HTML e CSS" />
+                                </div>
+                                <div className="card-descricao">
+                                    <h4>HTML e CSS</h4>
+                                    <p>Conhecimentos em semâticas, e estilizações do sites. Com capacidade de criar sites 
+                                    </p>
+                                </div>
+
+                            </div>
+
+                            <div className="card-box">
+                                
+                                <div className="card-image">
+                                    <img src="assets/javascript.png" alt="logo do javascipt" title="Logo javascipt" />
+                                </div>
+                                <div className="card-descricao">
+                                    <h4>javascipt</h4>
+                                    <p>Conhecimento em algoritmo, propriedades e funções.</p>
+
+                                </div>
+
+                            </div>
+
+                            <div className="card-box">
+                                
+                                <div className="card-image">
+                                    <img src="assets/react.png" alt="logo do react" title="Logo do React" />
+                                </div>
+                                <div className="card-descricao">
+                                    <h4>React</h4>
+                                    <p>Conhecomento em Props, Rotas e funções. 3 Projetos desenvolvidos com react. </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section className="secao-projetos" id="projetos"> 
+                   <div className="limite-container">
+                         <h2> Meus projetos </h2>
+
+                       <div className="container-card">
+
+                            <div className="card-box-projetos">
+                                    <div className="card-image-projetos">
+                                        <img src="assets/gelateria.png" alt="Banner de Gelateria" title="Banner de Gelateria" />
+                                    </div>
+                                    <div  className="card-descricao-projetos">
+                                        <p>
+                                            Projeto criado com <span className="react">React</span> e algumas funcionalidades, usando Router para navegação de páginas 
+                                        </p>
+                                    </div>
+                                    <div className="container-botao">
+                                        <a href="https://alvarocastroc.github.io/gelateria" target="parent">Acessar</a>
+                                        <a href="https://github.com/AlvaroCastroC/gelateria" target="_blank">Repositório</a>
+                                    </div>
+
+                            </div>
+
+                            <div className="card-box-projetos">
+                                    <div className="card-image-projetos">
+                                        <img src="assets/barbearia.png" alt="Banner de Barbearia" title="Banner de Barbearia" />
+                                    </div>
+                                    <div  className="card-descricao-projetos">
+                                        <p>
+                                            Projeto criado com <span className="react">React</span> e <span className="js">JavaScript</span>, tendo com uma funcionalidade que é o DarkMode.
+                                        </p>
+                                    </div>
+                                    <div className="container-botao">
+                                        <a href="https://alvarocastroc.github.io/barbearia/" target="parent">Acessar</a>
+                                        <a href="https://github.com/AlvaroCastroC/barbearia" target="_blank">Repositório</a>
+                                    </div>
+
+                            </div>
+
+                            <div className="card-box-projetos">
+                                    <div className="card-image-projetos">
+                                        <img src="assets/pousada.png" alt="Banner de Pousada" title="Banner de Pousada" />
+                                    </div>
+                                    <div  className="card-descricao-projetos">
+                                        <p>
+                                            Projeto criado somente com <span className="html">HTML</span> e <span className="css">CSS</span>, fazendo uma navegação básica de páginas. 
+                                        </p>
+                                    </div>
+                                    <div className="container-botao">
+                                        <a href="https://alvarocastroc.github.io/Pousada-web/" target="parent">Acessar</a>
+                                        <a href="https://github.com/AlvaroCastroC/Pousada-web" target="_blank">Repositório</a>
+                                    </div>
+
+                            </div>
+
+                            <div className="card-box-projetos">
+                                    <div className="card-image-projetos">
+                                        <img src="assets/clinica.png" alt="Banner de clínica" title="Banner de clínica" />
+                                    </div>
+
+                                    <div  className="card-descricao-projetos">
+                                        <p>
+                                            Projeto criado somente co  <span className="html">HTML</span> e <span className="css">CSS</span>, mas utilizando algumas estilizações com <span className="css">CSS</span>.
+                                        </p>
+                                    </div>
+                                    <div className="container-botao">
+                                        <a href="https://alvarocastroc.github.io/Clinica/" target="parent">Acessar</a>
+                                        <a href="https://github.com/AlvaroCastroC/Clinica" target="_blank">Repositório</a>
+                                    </div>
+
+                            </div>
+
+                            <div className="card-box-projetos">
+                                    <div className="card-image-projetos">
+                                        <img src="assets/agencia.png" alt="Banner de Agência" title="Banner de Agência" />
+                                    </div>
+
+                                    <div className="card-descricao-projetos">
+                                        <p>
+                                            Projeto criado com <span className="html">HTML</span> e <span className="css">CSS</span>, visando a utilização do formulário.
+                                        </p>
+                                    </div>
+                                    <div className="container-botao">
+                                        <a href="https://alvarocastroc.github.io/Agencia-de-viagens/" target="parent">Acessar</a>
+                                        <a href="https://github.com/AlvaroCastroC/Agencia-de-viagens" target="_blank">Repositório</a>
+                                    </div>
+
+                            </div>
+                       </div>
+
+                    </div>
+                </section>
+            </div>
+        </main>
+    );
+}
