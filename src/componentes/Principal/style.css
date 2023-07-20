@@ -210,7 +210,7 @@ main {
 .card-image img {
     width: 100%;
     height: 150%;
-    object-fit: fill;  
+    object-fit: contain;  
     
     transition-duration: 1.3s;
     transition-delay: 0.4s;

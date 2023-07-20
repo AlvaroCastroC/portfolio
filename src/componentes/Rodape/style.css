@@ -12,7 +12,7 @@ footer{
     flex-flow: row wrap;
     align-items: center;
     justify-content: center;
-    gap: 50px;
+    gap: 40px;
     padding: 0 5px 60px 5px;
 }
 
@@ -38,7 +38,7 @@ footer{
    flex-flow: row wrap;
    align-items: center;
    justify-content: center;
-   gap: 60px;
+   gap: 50px;
 
 }
 .container-contato ul li{
