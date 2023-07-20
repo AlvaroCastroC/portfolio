@@ -1,5 +1,7 @@
 import React from "react";
 import './style.css';
+
+
 export default function Principal() {
     return (
         <main>
@@ -37,7 +39,7 @@ export default function Principal() {
                        </div>
 
                         <div>
-                            <p> Nasci em julho de 2002, e desde pequeno sempre gostei de programação.<br/>
+                            <p> Nasci em julho de 2002, e desde 2020 eu sigo o caminho da carreira de programador.<br/>
                             Sou formado em Análise e Desenvolvimento de Sistema. <br />
                             Tenho certificados de autoridade na área de front-end. <br />
                             E estou a procura de uma oportunidade no mercado na área da programação.
@@ -62,7 +64,7 @@ export default function Principal() {
                                 </div>
                                 <div className="card-descricao">
                                     <h4>HTML e CSS</h4>
-                                    <p>Conhecimentos em semâticas, e estilizações do sites. Com capacidade de criar sites 
+                                    <p>Conhecimentos em semâticas, e estilizações do sites. Com aprofundamento com a estilização de site, adquiri conhecimento em responsividade, e animações. 
                                     </p>
                                 </div>
 
@@ -75,7 +77,7 @@ export default function Principal() {
                                 </div>
                                 <div className="card-descricao">
                                     <h4>javascipt</h4>
-                                    <p>Conhecimento em algoritmo, propriedades e funções.</p>
+                                    <p>Conhecimento em algoritmo e lógica de programação. <br/> Após o curso na DevMedia adquiri o conhecimento aprofundado na linguagem, me possibilitanto criar sistema de conversões, cáculos e comparativos.</p>
 
                                 </div>
 
@@ -88,7 +90,7 @@ export default function Principal() {
                                 </div>
                                 <div className="card-descricao">
                                     <h4>React</h4>
-                                    <p>Conhecomento em Props, Rotas e funções. 3 Projetos desenvolvidos com react. </p>
+                                    <p>Conhecimento em aplicações, SPAs e interatividade com os sites.</p>
                                 </div>
 
                             </div>
@@ -112,7 +114,7 @@ export default function Principal() {
                                         </p>
                                     </div>
                                     <div className="container-botao">
-                                        <a href="https://alvarocastroc.github.io/gelateria" target="parent">Acessar</a>
+                                        <a href="https://alvarocastroc.github.io/gelateria" target="_blank">Acessar</a>
                                         <a href="https://github.com/AlvaroCastroC/gelateria" target="_blank">Repositório</a>
                                     </div>
 
@@ -128,7 +130,7 @@ export default function Principal() {
                                         </p>
                                     </div>
                                     <div className="container-botao">
-                                        <a href="https://alvarocastroc.github.io/barbearia/" target="parent">Acessar</a>
+                                        <a href="https://alvarocastroc.github.io/barbearia/" target="_blank">Acessar</a>
                                         <a href="https://github.com/AlvaroCastroC/barbearia" target="_blank">Repositório</a>
                                     </div>
 
@@ -144,7 +146,7 @@ export default function Principal() {
                                         </p>
                                     </div>
                                     <div className="container-botao">
-                                        <a href="https://alvarocastroc.github.io/Pousada-web/" target="parent">Acessar</a>
+                                        <a href="https://alvarocastroc.github.io/Pousada-web/" target="_blank">Acessar</a>
                                         <a href="https://github.com/AlvaroCastroC/Pousada-web" target="_blank">Repositório</a>
                                     </div>
 
@@ -161,7 +163,7 @@ export default function Principal() {
                                         </p>
                                     </div>
                                     <div className="container-botao">
-                                        <a href="https://alvarocastroc.github.io/Clinica/" target="parent">Acessar</a>
+                                        <a href="https://alvarocastroc.github.io/Clinica/" target="_blank">Acessar</a>
                                         <a href="https://github.com/AlvaroCastroC/Clinica" target="_blank">Repositório</a>
                                     </div>
 
@@ -178,7 +180,7 @@ export default function Principal() {
                                         </p>
                                     </div>
                                     <div className="container-botao">
-                                        <a href="https://alvarocastroc.github.io/Agencia-de-viagens/" target="parent">Acessar</a>
+                                        <a href="https://alvarocastroc.github.io/Agencia-de-viagens/" target="_blank">Acessar</a>
                                         <a href="https://github.com/AlvaroCastroC/Agencia-de-viagens" target="_blank">Repositório</a>
                                     </div>
 

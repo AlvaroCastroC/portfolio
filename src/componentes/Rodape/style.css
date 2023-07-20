@@ -13,7 +13,7 @@ footer{
     align-items: center;
     justify-content: center;
     gap: 50px;
-    padding-bottom: 60px;
+    padding: 0 5px 60px 5px;
 }
 
 .criador {
@@ -21,6 +21,7 @@ footer{
     width: 100%;
     position: absolute;
     bottom: 10px;
+    color: #4b2c13b0;
 }
 
 .container-contato .box h4{
@@ -32,13 +33,20 @@ footer{
 }
 
 .container-contato ul{
-   display: flex;
+   display:flex;
+   
    flex-flow: row wrap;
    align-items: center;
    justify-content: center;
    gap: 60px;
 
 }
+.container-contato ul li{
+    display:flex;
+    align-items: center;
+    
+ 
+ }
 
 ul li img {
     
@@ -48,11 +56,6 @@ ul li img {
 
 .contato li:nth-of-type(1)::before {
     content: "";
-
-    display: inline-block;
-    flex-flow: row nowrap;
-    align-items: center;
-    justify-content: center;
 
     border-radius: 10%;
     width: 30px;
@@ -66,12 +69,7 @@ ul li img {
 }
 
 .contato li:nth-of-type(2)::before {
-    content: "";
-
-    display: inline-block;
-    flex-flow: row nowrap;
-    align-items: center;
-    justify-content: center;
+    content: '';   
 
     border-radius: 10%;
     width: 30px;
@@ -84,11 +82,6 @@ ul li img {
 
 .contato li:nth-of-type(3)::before {
     content: "";
-
-    display: inline-block;
-    flex-flow: row nowrap;
-    align-items: center;
-    justify-content: center;
 
     border-radius: 10%;
     width: 30px;

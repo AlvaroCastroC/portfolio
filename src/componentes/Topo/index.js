@@ -1,7 +1,5 @@
 import React from "react";
-import './style.css';
-
-
+import "./style.css";
 
 
 export default function Topo () {
@@ -19,7 +17,6 @@ export default function Topo () {
                         <li> <a href="#projetos"> Projetos</a> </li>
                         <li> <a href="#contato"> Contato</a> </li>
 
-                        <li> <button /> </li>
                     </ul>
                 </div>
 

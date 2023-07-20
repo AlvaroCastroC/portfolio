@@ -3,10 +3,13 @@ import Rodape from './componentes/Rodape/';
 import Principal from './componentes/Principal/';
 import './App.css';
 
+
+
 function App() {
+
   return (
-    <div className="App">
-      <Topo />
+    <div>
+      <Topo/>
       <Principal />
       <Rodape />
     </div>
