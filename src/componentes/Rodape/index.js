@@ -24,7 +24,7 @@ export default function Rodape() {
                     <h4>Redes sociais</h4>
 
                     <ul type = 'none' className="rede-social">
-                        <li> <a href="https://www.instagram.com/alvaro_cstro/" target="_blank"><img src="assets/instagram-branco.png" alt="Logo do instagram" title="Link do do meu perfil do Instagram"/></a> </li>
+                    
                         <li> <a href="https://www.linkedin.com/in/alvaro-cunha-091172240" target="_blank"><img src="assets/linkedin-branco.png" alt="Logo do LinkedIn" title="Link do meu LinkedIn"/></a> </li>
                         <li> <a href="https://github.com/AlvaroCastroC" target="_blank"><img src="assets/github-branco.png" alt="logo do github" title="Link para o meu Github" /></a> </li>
                     </ul>
