@@ -18,11 +18,14 @@ export default function Principal() {
                             </div>
 
                             <div className="container-imagens">
-                               <img className="imagem1" src='assets/react.png' alt="logo do react" title="logo do react" />
+                               <img className="imagem1" src="assets/react.png" alt="logo do react" />
                         
-                               <img className="imagem2" src='assets/javascript.png' alt="Logo do javascript" title="Logo do Javascript" />
+                               <img className="imagem2" src="assets/javascript.png" alt="Logo do javascript" />
+
+                               <img className="imagem3" src="html.png"alt="Logo do html"  />
+                              
                             </div>
-                    
+                     <img src="meninoNot.png" className="imagem4"/>
                         </div >
                     </div>
 
@@ -39,11 +42,16 @@ export default function Principal() {
                        </div>
 
                         <div>
-                            <p> Nasci em julho de 2002, e desde 2020 eu sigo o caminho da carreira de programador.<br/>
-                            Sou formado em Análise e Desenvolvimento de Sistema. <br />
-                            Tenho certificados de autoridade na área de front-end. <br />
-                            E estou a procura de uma oportunidade no mercado na área da programação.
+                            <p> Nasci em julho de 2002, e desde 2020 eu sigo o caminho da carreira de programador.
                             </p>
+
+                            <p>
+                            Sou formado em <span className="fonte-sobre">Análise e Desenvolvimento de Sistema.</span> 
+                            </p><p>Me especializei na DevMedia, com o curso de full-stack.
+                            </p>
+                            <p>
+                            Minhas tecnologias utilizadas são,<span className="fonte-sobre"> HTML, CSS, JavaScript e React.</span>
+                            </p> 
                         </div>
                         
                         </div>
@@ -73,7 +81,7 @@ export default function Principal() {
                             <div className="card-box">
                                 
                                 <div className="card-image">
-                                    <img src="assets/javascript.png" alt="logo do javascipt" title="Logo javascipt" />
+                                    <img src="assets/javascript.png"alt="logo do javascipt" title="Logo javascipt" />
                                 </div>
                                 <div className="card-descricao">
                                     <h4>javascipt</h4>
@@ -86,7 +94,7 @@ export default function Principal() {
                             <div className="card-box">
                                 
                                 <div className="card-image">
-                                    <img src="assets/react.png" alt="logo do react" title="Logo do React" />
+                                    <img src="react.png" alt="logo do react" title="Logo do React" className="react-image" />
                                 </div>
                                 <div className="card-descricao">
                                     <h4>React</h4>

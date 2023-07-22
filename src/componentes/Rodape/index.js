@@ -13,7 +13,7 @@ export default function Rodape() {
 
                     <ul type = 'none' className="contato">
                     
-                        <li>(99) 99163-8167 </li>
+                        <li><a href="https://wa.me/xxxx" target="_blank">Whatsapp</a></li>
                         <li>alvarocastrocunha@icloud.com </li>
                         <li>Imperatriz - Ma</li>
             

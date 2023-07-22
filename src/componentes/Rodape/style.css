@@ -1,7 +1,7 @@
 footer{
     width: 100%;
     min-height: 35vh;
-    background-color: #000000;
+    background-image: radial-gradient(#000000, #0f0e0e, #19191b);
     color: #fff;
     position: relative;
 }
@@ -21,7 +21,7 @@ footer{
     width: 100%;
     position: absolute;
     bottom: 10px;
-    color: #4b2c13b0;
+    color: #807f7fb0;
 }
 
 .container-contato .box h4{
@@ -29,6 +29,7 @@ footer{
     text-align: center;
     font-size: 20px;
     letter-spacing: 2px;
+    color: #d4cece;
    
 }
 
@@ -39,13 +40,23 @@ footer{
    align-items: center;
    justify-content: center;
    gap: 50px;
+   cursor: pointer;
 
 }
-.container-contato ul li{
+.container-contato ul li, a{
     display:flex;
     align-items: center;
+    color: #c9c6c6;
     
- 
+ }
+
+ .container-contato ul li:hover, a:hover{
+    color: #fff;
+ }
+
+ .container-contato ul li a{
+    text-decoration: none;
+    
  }
 
 ul li img {
