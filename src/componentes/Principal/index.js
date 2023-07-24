@@ -19,14 +19,14 @@ export default function Principal() {
                             </div>
 
                             <div className="container-imagens">
-                               <img className="imagem1" src="assets/react.png" alt="logo do react" />
+                               <img className="imagem1" src='assets/react.png' alt="logo do react" />
                         
-                               <img className="imagem2" src="assets/javascript.png" alt="Logo do javascript" />
+                               <img className="imagem2" src='assets/javascript.png' alt="Logo do javascript" />
 
-                               <img className="imagem3" src="assets/html.png"alt="Logo do html"  />
+                               <img className="imagem3" src='assets/html.png' alt="Logo do html"  />
                               
                             </div>
-                     <img src="assets/meninoNot.png" className="imagem4"/>
+                     <img src='assets/meninoNot.png' className="imagem4"/>
                         </div >
                     </div>
 

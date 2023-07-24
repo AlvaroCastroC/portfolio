@@ -1,6 +1,6 @@
 footer{
     width: 100%;
-    min-height: 35vh;
+    min-height: 25vh;
     background-image: radial-gradient(#000000, #0f0e0e, #19191b);
     color: #fff;
     position: relative;
@@ -35,28 +35,31 @@ footer{
 
 .container-contato ul{
    display:flex;
-   
+   gap: 50px;
    flex-flow: row wrap;
    align-items: center;
    justify-content: center;
-   gap: 50px;
    cursor: pointer;
 
 }
-.container-contato ul li, a{
+
+.container-contato ul li, .container-contato a{
     display:flex;
     align-items: center;
-    color: #c9c6c6;
+    text-decoration: none;
+    
     
  }
 
- .container-contato ul li:hover, a:hover{
+ .container-contato ul li p:hover{
     color: #fff;
  }
 
- .container-contato ul li a{
-    text-decoration: none;
+ .container-contato ul li p{
     cursor: pointer;
+    font-weight: bolder;
+    color: #b1abab;
+    
     
  }
 
@@ -66,45 +69,5 @@ ul li img {
     object-fit: contain;
 }
 
-.contato li:nth-of-type(1)::before {
-    content: "";
 
-    border-radius: 10%;
-    width: 30px;
-    height: 30px;
-    margin-right: 5px;
-    
-    background-image: url('../../../public/assets/whatsapp.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-}
 
-.contato li:nth-of-type(2)::before {
-    content: '';   
-
-    border-radius: 10%;
-    width: 30px;
-    height: 30px;
-    margin-right: 5px;
-    
-    background-image: url('../../../public/assets/email.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-}
-
-.contato li:nth-of-type(3)::before {
-    content: "";
-
-    border-radius: 10%;
-    width: 30px;
-    height: 35px;
-    margin-right: 5px;
-    
-    
-    background-image: url('../../../public/assets/localidade-branco.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-}

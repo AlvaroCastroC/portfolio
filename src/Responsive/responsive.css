@@ -1,46 +1,138 @@
-@media only screen and (max-width: 880px){
-    .container-topo .menu ul{
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
+@media only screen and (max-width: 880px){   
 
-        top: -50px;
-        right: -22px;
-
-        border-radius: 10% 0 0 10%;
-        background-image: radial-gradient(#3332328e 0%, #1412126b 20%, #11101071 80%);
+    @keyframes botaoActive {
+        from{
+            height: 0px;
+            opacity: 0;
+            visibility: hidden;
+            border-radius: 0;
+        }to{
+            height:200px;
+            opacity: 1;
+            visibility: visible;
+            border-radius: 0 0 15% 15%;
+        }
         
-        width: 200px;
-        padding: 100px 20px 20px 20px;
-       
-    }    
+    }
+    @keyframes botaoInActive {
+        from {
+            height: 200px;
+            opacity: 1;
+            visibility: visible;
+            border-radius: 0 0 15% 15%;
+            
+        }
+        to {
+            height: 0px;
+            opacity: 0;
+           visibility: hidden;
+           border-radius: 0 0 0% 0%;
+        }
+        
+    }
 
+    @keyframes botaoActiveLi {
+        from {
+            opacity: 0;
+           visibility: hidden;
+        }
+        to {
+            opacity: 1;
+           visibility: visible;
+        }
+        
+    }
+
+    @keyframes botaoInActiveLi {
+        from {
+            opacity: 1;
+           visibility: visible;
+        }
+        to {
+            opacity: 0;
+           visibility: hidden;
+        }
+        
+    }
+
+
+   
     .menu-button{
         visibility: visible;
-        z-index: 1;
+        z-index: 1;  
+        font-size: 25px;
+        font-weight: bold;
+        color: #f7f7f7;
+        text-shadow: 2px 2px 2px #000000;
+       
     }
 
-    .menu.active {
-        opacity: 0;
-        visibility: hidden;
+    
+    .container-menu .menu ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+        top: 0vh;
+        right: -20px;
+        width: 100vw;
+
+        padding: 80px 10px 20px 10px;
+        background-image: radial-gradient(#1b1b1bd2 0%, #141212cb 20%, #111010d3 80%);
+        
+
+    } 
+
+
+    .menu.active ul {
+        animation: botaoActive 0.7s ease-out 0s forwards ;
+        
     }
+    
+    .menu.active li {
+        animation: botaoActiveLi 1.5s ease-in 0s forwards ;
+    }
+
+
+    .menu.inactive ul{
+        animation: botaoInActive 1.7s ease-in-out 0s forwards ;
+        
+    }
+
+    .menu.inactive ul li{
+        animation: botaoInActiveLi 0.5s ease-out 0s forwards ;
+        
+    }
+    
+    
+    .menu-button {
+      background: none;
+      border: none;
+      cursor: pointer;
+    }
+
+    .box ul li p{
+        display: none;
+     }
+
 }
 
 @media only screen and (min-width: 375px) and (max-width: 415px) {
 
     .container-topo h3 {
         font-size: 30px;
+
     }
     
     
     .container-topo ul li a{
         text-decoration: none;
         color: #fff;
-        font-weight: 650;
-        font-size: 25px;
-        letter-spacing: 2px;
-        border-bottom:  1px solid #f99577;
-        width: 100px;
+        
+        font-size: 20px;
+        
         
     }
 
@@ -54,9 +146,7 @@
     }
     
     .titulo-banner h1 {
-        font-size: 9.7cqmin;
-        font-weight: 600;
-        margin-bottom: 20px;
+        font-size: 8cqmin;
     
     }
 
@@ -66,31 +156,38 @@
         color: #3c3b37;
     }
 
+    .container-imagens img {
+        
+        width: 55px;
+        height: 55px;  
+        
+    }
+
     .container-imagens .imagem1 {
         
-        width: 60px;
-        bottom: 13vh;
+        bottom: 15vh;
         left: 42vw;   
         
     }
 
     .container-imagens .imagem2 {
-        width: 60px;
+
         bottom: 25vw;
         right: 17vw;
         
     }
 
     .container-imagens .imagem3 {
-        width: 70px;
+
         bottom: 15vw;
         left: 15vw;
     }
 
     .container-banner .imagem4 {
-        bottom: -50vw;
+        bottom: -20vw;
         left: 3vw;
         width: 400px;
+        height: 300px;
         
     }
 
@@ -101,5 +198,41 @@
     .container-sobre img {
         display: none;
     }
+
+    .container-contato {
+    
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 30px;
+        padding: 0 5px 60px 5px;
+    }
+
+    .container-contato .box h4{
+        
+        font-size: 20px;
+       
+    }
+
+    .container-contato ul{
+        display:flex;
+        gap: 20px;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content:center ;
+        cursor: pointer;
+     
+     }
+
+     .container-contato ul li, .container-contato a{
+        display:flex;
+        align-items: center;
+        flex-direction: column;
+        color: #c9c6c6;
+        
+     }
+
+     
 
 }

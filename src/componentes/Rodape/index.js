@@ -2,6 +2,7 @@ import React from "react";
 import './style.css';
 
 
+
 export default function Rodape() {
     return(
     <footer id="contato">
@@ -13,9 +14,10 @@ export default function Rodape() {
 
                     <ul type = 'none' className="contato">
                     
-                        <li><a href="https://wa.me/xxxx" target="_blank">Whatsapp</a></li>
-                        <li>alvarocastrocunha@icloud.com </li>
-                        <li>Imperatriz - Ma</li>
+                        <li><a href="https://wa.me/xxxx" target="_blank"><img src="assets/whatsapp.png" alt="" title="Fale comigo"/><p>Whatsapp</p>
+                        </a></li>
+
+                        <li><img src="assets/email.png" alt="" title="Mande um email"/><p>E-mail</p></li>
             
                      </ul>
                 </div>
@@ -25,8 +27,9 @@ export default function Rodape() {
 
                     <ul type = 'none' className="rede-social">
                     
-                        <li> <a href="https://www.linkedin.com/in/alvaro-cunha-091172240" target="_blank"><img src="assets/linkedin-branco.png" alt="Logo do LinkedIn" title="Link do meu LinkedIn"/></a> </li>
-                        <li> <a href="https://github.com/AlvaroCastroC" target="_blank"><img src="assets/github-branco.png" alt="logo do github" title="Link para o meu Github" /></a> </li>
+                        <li> <a href="https://www.linkedin.com/in/alvaro-cunha-091172240" target="_blank"><img src="assets/github-branco.png" alt="" title="Link para o GitHub"/><p>GitHub</p> </a></li>
+
+                        <li> <a href="https://github.com/AlvaroCastroC" target="_blank"><img src="asstes/linkedin-branco.png" alt="" title="Link para o LinkedIn" /> <p>LinkedIn</p> </a></li>
                     </ul>
                 </div>
             </nav>

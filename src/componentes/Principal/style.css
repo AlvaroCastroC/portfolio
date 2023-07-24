@@ -21,14 +21,15 @@
     font-size: 65px;
     font-weight: 600;
     margin-bottom: 20px;
-    color: #3c3b37;
+    color: #1d1918;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #636060;
     
 }
 
 .titulo-banner p{
     font-size: 30px;
-    font-weight: normal;
-    color: #3c3b37;
+    color: #030303;
 }
 
 .container-banner img{
