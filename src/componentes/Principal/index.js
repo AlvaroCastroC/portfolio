@@ -13,7 +13,8 @@ export default function Principal() {
                         <div className="container-banner ">
                             <div className="titulo-banner">
                                 
-                                <h1><span>Olá, eu me chamo</span><br></br>Álvaro de Castro</h1>
+                                <p>Olá, eu me chamo</p>
+                                <h1>Álvaro de Castro</h1>
                                 <p>Sou desenvolvedor Front-end</p>
                             </div>
 

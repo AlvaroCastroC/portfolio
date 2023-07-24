@@ -56,11 +56,12 @@ footer{
 
  .container-contato ul li a{
     text-decoration: none;
+    cursor: pointer;
     
  }
 
 ul li img {
-    
+    cursor: pointer;    
     height: 30px;
     object-fit: contain;
 }
@@ -73,7 +74,7 @@ ul li img {
     height: 30px;
     margin-right: 5px;
     
-    background-image: url('../../../public/assets/telefone-branco.png');
+    background-image: url('../../../public/assets/whatsapp.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -87,7 +88,9 @@ ul li img {
     height: 30px;
     margin-right: 5px;
     
-    background-image: url('../../../public/assets/email-branco.png');
+    background-image: url('../../../public/assets/email.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     background-position: center center;
 }
 
@@ -102,6 +105,6 @@ ul li img {
     
     background-image: url('../../../public/assets/localidade-branco.png');
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center 2px;
+    background-size: cover;
+    background-position: center center;
 }

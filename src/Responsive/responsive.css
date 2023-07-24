@@ -1,0 +1,105 @@
+@media only screen and (max-width: 880px){
+    .container-topo .menu ul{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        top: -50px;
+        right: -22px;
+
+        border-radius: 10% 0 0 10%;
+        background-image: radial-gradient(#3332328e 0%, #1412126b 20%, #11101071 80%);
+        
+        width: 200px;
+        padding: 100px 20px 20px 20px;
+       
+    }    
+
+    .menu-button{
+        visibility: visible;
+        z-index: 1;
+    }
+
+    .menu.active {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 415px) {
+
+    .container-topo h3 {
+        font-size: 30px;
+    }
+    
+    
+    .container-topo ul li a{
+        text-decoration: none;
+        color: #fff;
+        font-weight: 650;
+        font-size: 25px;
+        letter-spacing: 2px;
+        border-bottom:  1px solid #f99577;
+        width: 100px;
+        
+    }
+
+    .banner {
+        height: 70vh;
+        
+    }
+
+    .container-banner {
+        padding: 2vh 25px;
+    }
+    
+    .titulo-banner h1 {
+        font-size: 9.7cqmin;
+        font-weight: 600;
+        margin-bottom: 20px;
+    
+    }
+
+    .titulo-banner p{
+        font-size: 7cqmin;
+        margin: 20px 0;
+        color: #3c3b37;
+    }
+
+    .container-imagens .imagem1 {
+        
+        width: 60px;
+        bottom: 13vh;
+        left: 42vw;   
+        
+    }
+
+    .container-imagens .imagem2 {
+        width: 60px;
+        bottom: 25vw;
+        right: 17vw;
+        
+    }
+
+    .container-imagens .imagem3 {
+        width: 70px;
+        bottom: 15vw;
+        left: 15vw;
+    }
+
+    .container-banner .imagem4 {
+        bottom: -50vw;
+        left: 3vw;
+        width: 400px;
+        
+    }
+
+    .secao-sobre, .secao-habilidades, .secao-projetos{
+        padding-top: 40px;
+    }
+
+    .container-sobre img {
+        display: none;
+    }
+
+}
