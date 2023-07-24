@@ -336,6 +336,11 @@ main {
 
 }
 
+.container-botao {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
 .container-botao a {
     margin: 0 5px;
     text-decoration: none;

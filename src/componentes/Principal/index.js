@@ -22,10 +22,10 @@ export default function Principal() {
                         
                                <img className="imagem2" src="assets/javascript.png" alt="Logo do javascript" />
 
-                               <img className="imagem3" src="html.png"alt="Logo do html"  />
+                               <img className="imagem3" src="assets/html.png"alt="Logo do html"  />
                               
                             </div>
-                     <img src="meninoNot.png" className="imagem4"/>
+                     <img src="assets/meninoNot.png" className="imagem4"/>
                         </div >
                     </div>
 
@@ -94,7 +94,7 @@ export default function Principal() {
                             <div className="card-box">
                                 
                                 <div className="card-image">
-                                    <img src="react.png" alt="logo do react" title="Logo do React" className="react-image" />
+                                    <img src="assets/react.png" alt="logo do react" title="Logo do React" className="react-image" />
                                 </div>
                                 <div className="card-descricao">
                                     <h4>React</h4>
