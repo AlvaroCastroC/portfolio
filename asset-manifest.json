@@ -1,18 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.a709e53e.css",
-    "main.js": "/portfolio/static/js/main.b675237a.js",
-    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "main.css": "/portfolio/static/css/main.b58119c1.css",
+    "main.js": "/portfolio/static/js/main.88e95f09.js",
+    "static/media/whatsapp.png": "/portfolio/static/media/whatsapp.3805517ab2615bdcd24a.png",
     "static/media/localidade-branco.png": "/portfolio/static/media/localidade-branco.4a3c4a646f076d275073.png",
-    "static/media/telefone-branco.png": "/portfolio/static/media/telefone-branco.14819b27a69f0de1a848.png",
-    "static/media/email-branco.png": "/portfolio/static/media/email-branco.0ece488e58c6f2a20413.png",
+    "static/media/email.png": "/portfolio/static/media/email.15fa4f9cb1e499ac67d7.png",
     "index.html": "/portfolio/index.html",
-    "main.a709e53e.css.map": "/portfolio/static/css/main.a709e53e.css.map",
-    "main.b675237a.js.map": "/portfolio/static/js/main.b675237a.js.map",
-    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+    "main.b58119c1.css.map": "/portfolio/static/css/main.b58119c1.css.map",
+    "main.88e95f09.js.map": "/portfolio/static/js/main.88e95f09.js.map"
   },
   "entrypoints": [
-    "static/css/main.a709e53e.css",
-    "static/js/main.b675237a.js"
+    "static/css/main.b58119c1.css",
+    "static/js/main.88e95f09.js"
   ]
 }
