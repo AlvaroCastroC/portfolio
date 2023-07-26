@@ -27,9 +27,9 @@ export default function Rodape() {
 
                     <ul type = 'none' className="rede-social">
                     
-                        <li> <a href="https://www.linkedin.com/in/alvaro-cunha-091172240" target="_blank"><img src="assets/github-branco.png" alt="" title="Link para o GitHub"/><p>GitHub</p> </a></li>
+                        <li> <a href="https://www.linkedin.com/in/alvaro-cunha-091172240" target="_blank"><img src="assets/linkedin-branco.png" alt="" title="Link para o LinkedIn"/><p>LinkedIn</p> </a></li>
 
-                        <li> <a href="https://github.com/AlvaroCastroC" target="_blank"><img src="asstes/linkedin-branco.png" alt="" title="Link para o LinkedIn" /> <p>LinkedIn</p> </a></li>
+                        <li> <a href="https://github.com/AlvaroCastroC" target="_blank"><img src="assets/github-branco.png" alt="" title="Link para o GitHub" /> <p>GitHub</p> </a></li>
                     </ul>
                 </div>
             </nav>

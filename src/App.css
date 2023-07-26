@@ -10,8 +10,13 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     cursor: default;
+
 }
 
 html {
     scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+    display: none;
 }

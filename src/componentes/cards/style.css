@@ -1,0 +1,163 @@
+.container-carousel-habilidades {
+   max-width: 90vw;
+    max-height: 700px;
+    margin: 0 auto;
+  
+   
+    
+}
+
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+   padding: 10px 10px;
+    border-radius: 5%;
+   
+}
+
+@media screen and (max-width: 899px){
+    .carousel {
+        display: flex;
+        overflow-x: auto;
+        justify-content: flex-start;
+        scroll-behavior: smooth;
+        height: 700px;
+        background-color: #5e504c79;
+        border-radius: 5%;
+       
+    }
+}
+
+
+.container-carousel-habilidades .carousel .card-box {
+
+    display: flex;
+    flex-direction: column;
+
+    margin: auto 10px;
+    padding: auto 10px;
+    height: 530px;
+    width: 300px;
+    flex: none;
+    
+    cursor: pointer;
+    
+    background-color: #64c27b;
+    border-radius: 5%;
+    box-shadow: 2px 2px 7px #1d1d1d;
+
+    transition-duration: 0.6s, 0.4s;
+    transition-timing-function: ease-in-out;
+}
+
+.carousel .card-box .card-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+ 
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;  
+    transition-duration: 1.3s;
+    transition-delay: 0.4s;
+    transition-timing-function: ease-in-out;
+
+}
+
+.card-image img:hover {
+    transition-property: filter, transform;
+    transform: translateY(-20px) scale(1.2);
+    filter: drop-shadow(2px 2px 6px #1d1d1d);
+
+}
+
+
+.card-descricao {
+    text-align: center;
+    width: 100%;
+    min-height: 350px;
+    padding: 25px 25px 10px 25px;
+    border-radius: 0 0 5% 5%;
+    
+}
+
+.card-descricao h4 {
+    font-size: 40px;
+    font-weight: bolder;
+    padding-bottom: 20px;
+    color: #1d1918;
+    border-bottom: 2px solid #ee6339;
+    text-transform: uppercase;
+    
+    
+}
+
+.card-descricao p{
+    font-size: 17px;
+    font-weight: bolder;
+    text-align: justify;
+    color: #070707;
+    
+}
+
+
+.react-image:last-of-type {
+    width: 190px;
+    height: 180px;
+}
+
+.card-box:hover, .card-box-projetos:hover {
+    transition-property: transform;
+    transform: translateY(-10px);
+    
+}
+.container-carousel-habilidades .buttons{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+}
+
+.container-carousel-habilidades .buttons button {
+
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container-carousel-habilidades .buttons button img {
+    width: 36px;
+    height: 36px;
+    object-fit: cover;
+    background: transparent;
+    cursor: pointer;
+}
+
+.container-carousel-habilidades .buttons button:first-child {
+   transform: rotate(180deg);
+}
+
+.container-carousel-habilidades .carousel::-webkit-scrollbar {
+    display: none;
+}
+
+@media screen and (min-width: 899px){
+    .container-carousel-habilidades .buttons button{
+        display: none;
+    }
+}
+
+
+

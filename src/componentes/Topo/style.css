@@ -3,7 +3,7 @@ header{
     width: 100%;
     max-height: 15vh;
     position: fixed;
-    z-index: 2;
+    z-index: 1000;
     
     backdrop-filter: blur(10px);
     background-color: #1d2d2d44;

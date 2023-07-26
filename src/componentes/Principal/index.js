@@ -1,8 +1,9 @@
 import React from "react";
 import './style.css';
 
-
+import CardHab from "../cards/CardHab";
 export default function Principal() {
+    
     return (
         <main>
             <div >
@@ -64,46 +65,8 @@ export default function Principal() {
                         
                         <h2> Minhas habilidades</h2>
 
-                        <div className="container-card">
-
-                            <div className="card-box">
-
-                                <div className="card-image">
-                                    <img src="assets/html-css.png" alt="logo do html e css" title="Logo HTML e CSS" />
-                                </div>
-                                <div className="card-descricao">
-                                    <h4>HTML e CSS</h4>
-                                    <p>Conhecimentos em semâticas, e estilizações do sites. Com aprofundamento com a estilização de site, adquiri conhecimento em responsividade, e animações. 
-                                    </p>
-                                </div>
-
-                            </div>
-
-                            <div className="card-box">
-                                
-                                <div className="card-image">
-                                    <img src="assets/javascript.png"alt="logo do javascipt" title="Logo javascipt" />
-                                </div>
-                                <div className="card-descricao">
-                                    <h4>javascipt</h4>
-                                    <p>Conhecimento em algoritmo e lógica de programação. <br/> Após o curso na DevMedia adquiri o conhecimento aprofundado na linguagem, me possibilitanto criar sistema de conversões, cáculos e comparativos.</p>
-
-                                </div>
-
-                            </div>
-
-                            <div className="card-box">
-                                
-                                <div className="card-image">
-                                    <img src="assets/react.png" alt="logo do react" title="Logo do React" className="react-image" />
-                                </div>
-                                <div className="card-descricao">
-                                    <h4>React</h4>
-                                    <p>Conhecimento em aplicações, SPAs e interatividade com os sites.</p>
-                                </div>
-
-                            </div>
-                        </div>
+                     
+                        <CardHab />
                     </div>
                 </section>
 
