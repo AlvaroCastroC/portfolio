@@ -2,6 +2,7 @@ import React from "react";
 import './style.css';
 
 import CardHab from "../cards/CardHab";
+import CardProj from "../cards/CardProj";
 export default function Principal() {
     
     return (
@@ -65,8 +66,8 @@ export default function Principal() {
                         
                         <h2> Minhas habilidades</h2>
 
-                     
                         <CardHab />
+
                     </div>
                 </section>
 
@@ -74,90 +75,9 @@ export default function Principal() {
                    <div className="limite-container">
                          <h2> Meus projetos </h2>
 
-                       <div className="container-card">
+                       
 
-                            <div className="card-box-projetos">
-                                    <div className="card-image-projetos">
-                                        <img src="assets/gelateria.png" alt="Banner de Gelateria" title="Banner de Gelateria" />
-                                    </div>
-                                    <div  className="card-descricao-projetos">
-                                        <p>
-                                            Projeto criado com <span className="react">React</span> e algumas funcionalidades, usando Router para navegação de páginas 
-                                        </p>
-                                    </div>
-                                    <div className="container-botao">
-                                        <a href="https://alvarocastroc.github.io/gelateria" target="_blank">Acessar</a>
-                                        <a href="https://github.com/AlvaroCastroC/gelateria" target="_blank">Repositório</a>
-                                    </div>
-
-                            </div>
-
-                            <div className="card-box-projetos">
-                                    <div className="card-image-projetos">
-                                        <img src="assets/barbearia.png" alt="Banner de Barbearia" title="Banner de Barbearia" />
-                                    </div>
-                                    <div  className="card-descricao-projetos">
-                                        <p>
-                                            Projeto criado com <span className="react">React</span> e <span className="js">JavaScript</span>, tendo com uma funcionalidade que é o DarkMode.
-                                        </p>
-                                    </div>
-                                    <div className="container-botao">
-                                        <a href="https://alvarocastroc.github.io/barbearia/" target="_blank">Acessar</a>
-                                        <a href="https://github.com/AlvaroCastroC/barbearia" target="_blank">Repositório</a>
-                                    </div>
-
-                            </div>
-
-                            <div className="card-box-projetos">
-                                    <div className="card-image-projetos">
-                                        <img src="assets/pousada.png" alt="Banner de Pousada" title="Banner de Pousada" />
-                                    </div>
-                                    <div  className="card-descricao-projetos">
-                                        <p>
-                                            Projeto criado somente com <span className="html">HTML</span> e <span className="css">CSS</span>, fazendo uma navegação básica de páginas. 
-                                        </p>
-                                    </div>
-                                    <div className="container-botao">
-                                        <a href="https://alvarocastroc.github.io/Pousada-web/" target="_blank">Acessar</a>
-                                        <a href="https://github.com/AlvaroCastroC/Pousada-web" target="_blank">Repositório</a>
-                                    </div>
-
-                            </div>
-
-                            <div className="card-box-projetos">
-                                    <div className="card-image-projetos">
-                                        <img src="assets/clinica.png" alt="Banner de clínica" title="Banner de clínica" />
-                                    </div>
-
-                                    <div  className="card-descricao-projetos">
-                                        <p>
-                                            Projeto criado somente co  <span className="html">HTML</span> e <span className="css">CSS</span>, mas utilizando algumas estilizações com <span className="css">CSS</span>.
-                                        </p>
-                                    </div>
-                                    <div className="container-botao">
-                                        <a href="https://alvarocastroc.github.io/Clinica/" target="_blank">Acessar</a>
-                                        <a href="https://github.com/AlvaroCastroC/Clinica" target="_blank">Repositório</a>
-                                    </div>
-
-                            </div>
-
-                            <div className="card-box-projetos">
-                                    <div className="card-image-projetos">
-                                        <img src="assets/agencia.png" alt="Banner de Agência" title="Banner de Agência" />
-                                    </div>
-
-                                    <div className="card-descricao-projetos">
-                                        <p>
-                                            Projeto criado com <span className="html">HTML</span> e <span className="css">CSS</span>, visando a utilização do formulário.
-                                        </p>
-                                    </div>
-                                    <div className="container-botao">
-                                        <a href="https://alvarocastroc.github.io/Agencia-de-viagens/" target="_blank">Acessar</a>
-                                        <a href="https://github.com/AlvaroCastroC/Agencia-de-viagens" target="_blank">Repositório</a>
-                                    </div>
-
-                            </div>
-                       </div>
+                       <CardProj />
 
                     </div>
                 </section>

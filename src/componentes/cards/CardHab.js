@@ -1,9 +1,9 @@
-import { useState, useRef } from "react";
+import { useRef } from "react";
 
 import './style.css';
 export default function () {
 
-    const [mudanca, setMudanca] = useState();
+    
     const carousel = useRef(null);
 
     const handleLeftClick = (e) => {
@@ -20,7 +20,7 @@ export default function () {
 
     return (
     <div className="container-carousel-habilidades">
-        <div className="carousel" ref={carousel}>
+        <div className="carousel-habilidades" ref={carousel}>
             <div className="card-box">
                 <div className="card-image">
                     <img src="assets/html-css.png" alt="logo do html e css" title="Logo HTML e CSS" />
@@ -62,7 +62,7 @@ export default function () {
         <div className="buttons">
                 <button onClick={handleLeftClick}><img src="assets/botao.png" alt="botao left" title="botao left" /></button>
                 <button onClick={handleRightClick}><img src="assets/botao.png" alt="botão right" title="botão right" /></button>
-            </div>
+        </div>
     </div>
 
     );
